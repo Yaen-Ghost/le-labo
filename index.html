@@ -14,41 +14,67 @@
     <link rel="stylesheet" href="style.css" />
     <title>Fiches strat'</title>
   </head>
-  <body class="d-flex flex-wrap mb-3">
-<!-- GROMAGO -->
-    <div class="encadregeneral">
+  <body class="mt-3">
+    <div class="text-center">
+                    <a href="#" class="" onclick='show("Acier")'><img src="/Img/Types/Acier.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Combat")'><img src="/Img/Types/Combat.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Dragon")'><img src="/Img/Types/Dragon.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Eau")'><img src="/Img/Types/Eau.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Electrik")'><img src="/Img/Types/Electrik.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Fee")'><img src="/Img/Types/Fee.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Feu")'><img src="/Img/Types/Feu.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Glace")'><img src="/Img/Types/Glace.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Insecte")'><img src="/Img/Types/Insecte.png" width="90px" class="mx-1" /></a>
+                    <br>
+                    <a href="#" class="" onclick='show("Normal")'><img src="/Img/Types/Normal.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Plante")'><img src="/Img/Types/Plante.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Poison")'><img src="/Img/Types/Poison.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Psy")'><img src="/Img/Types/Psy.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Roche")'><img src="/Img/Types/Roche.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Sol")'><img src="/Img/Types/Sol.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Spectre")'><img src="/Img/Types/Spectre.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Tenebres")'><img src="/Img/Types/Tenebres.png" width="90px" class="mx-1" /></a>
+                    <a href="#" class="" onclick='show("Vol")'><img src="/Img/Types/Vol.png" width="90px" class="mx-1" /></a>
+                    <br>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick="$('.bidon').show()">Voir tout</button>
+
+    </div>
+
+  <div class="d-flex flex-wrap mb-3">
+<!-- MIASCARADE #003 -->
+    <div class="encadregeneral bidon Plante Tenebres">
       <div class="container1">
         <div class="flex-column justify-content-center">
-          <img src="Img/1000.png" class="image-pokemon" />
-          <img src="/Img/Types/Acier.png" width="70px" class="mx-1" /><img
-            src="/Img/Types/Spectre.png"
+          <img src="Img/908.png" class="image-pokemon" />
+          <img src="/Img/Types/Plante.png" width="70px" class="mx-1" /><img
+            src="/Img/Types/Tenebres.png"
             width="70px"
           />
         </div>
 
         <div class="d-flex flex-column text-center">
 
-            <h3>GROMAGO</h3>
+            <h3>Meowscarada #003</h3>
 
             <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-                <div class="col">
-                    Timide (+Vit, -Atk)
+                <div class="col text-nowrap">
+                    Jovial (+Vit, -SpAtk)
                 </div>
 
                 <div class="col">
-                    Corps en or
+                    Protéen
                 </div>
 
                 <div class="col">
-                <img src="Img/Dream_Air_Balloon_Sprite.png" width="20px" />Ballon
+                <img src="Img/choicescarf.png" width="20px" />Mouchoir Choix
+                </div>
+
+                <div class="col text-nowrap">
+                    252 Vit, 252 Atk, 4 PV
                 </div>
 
                 <div class="col">
-                    4 PV, 252 SpA, 252 Vit
-                </div>
-
-                <div class="col">
-                    Téra Spectre
+                    Téra Plante
                 </div>
             </div>
         </div>
@@ -56,221 +82,29 @@
 
       <div class="container1">
         <div class="container d-flex flex-column align-items-center">
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Acier_mini.png" />Ruée d'Or
+          <div class="attaques my-1 text-nowrap">
+            <img src="Img/Types_mini/Plante_mini.png"/>Magie Florale
           </div>
           <div class="attaques my-1">
-            <img src="Img/Types_mini/Spectre_mini.png" />Ball'Ombre
+            <img src="Img/Types_mini/Fee_mini.png" />Câlinerie
           </div>
           <div class="attaques my-1">
-            <img src="Img/Types_mini/Electrik_mini.png" />Tonnerre
+            <img src="Img/Types_mini/Insecte_mini.png" />Demi-Tour
           </div>
           <div class="attaques my-1">
-            <img src="Img/Types_mini/Tenebres_mini.png" />Machination
+            <img src="Img/Types_mini/Tenebres_mini.png" />Sabotage
           </div>
         </div>
 
         <p class="background-poke">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-          exercitationem earum ipsa recusandae fugiat voluptatum laudantium,
-          dolore aliquid. Accusamus dolorum fugit odit veniam aspernatur rerum,
-          sequi consectetur vitae quam. Voluptate.
+          Meowscarada est arrivé à Paldea en tant qu'étudiant Erasmus. Il est passionné de magie depuis sa plus tendre enfance, et rêve de devenir un grand prestidigitateur.
         </p>
       </div>
       <p class="text-center fst-italic">Contributeur : Qelby</p>
     </div>
 
-<!-- GIGANSEL -->
-    <div class="encadregeneral">
-      <div class="container1">
-        <div class="flex-column justify-content-center">
-          <img src="Img/934.png" class="image-pokemon" />
-          <img src="/Img/Types/Roche.png" width="70px" class="mx-1" />
-        </div>
-
-        <div class="d-flex flex-column text-center">
-
-            <h3>GIGANSEL</h3>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-                <div class="col">
-                    Malin (+Def, -Atk spé)
-                </div>
-
-                <div class="col">
-                    Sel purificateur
-                </div>
-
-                <div class="col">
-                <img src="Img/leftovers.png" width="20px" />Restes
-                </div>
-
-                <div class="col text-nowrap">
-                    252 PV, 252 Def, 4 SpD
-                </div>
-
-                <div class="col">
-                    Téra Spectre
-                </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="container1">
-        <div class="container d-flex flex-column align-items-center">
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Roche_mini.png" />Salaison
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Acier_mini.png" />Mur de Fer
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Combat_mini.png" />Big Splash
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Normal_mini.png" />Soin
-          </div>
-        </div>
-
-        <p class="background-poke">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-          exercitationem earum ipsa recusandae fugiat voluptatum laudantium,
-          dolore aliquid. Accusamus dolorum fugit odit veniam aspernatur rerum,
-          sequi consectetur vitae quam. Voluptate.
-        </p>
-      </div>
-      <p class="text-center fst-italic">Contributeur : Qelby</p>
-    </div>
-
-<!-- MALVALAME -->
-    <div class="encadregeneral">
-      <div class="container1">
-        <div class="flex-column justify-content-center">
-          <img src="Img/937.png" class="image-pokemon" />
-          <img src="/Img/Types/Feu.png" width="70px" class="mx-1" /><img
-            src="/Img/Types/Spectre.png"
-            width="70px"
-          />
-        </div>
-
-        <div class="d-flex flex-column text-center">
-
-            <h3>MALVALAME</h3>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-                <div class="col">
-                    Jovial (+Vit, -Atk spé)
-                </div>
-
-                <div class="col">
-                    Torche
-                </div>
-
-                <div class="col">
-                <img src="Img/Talisman_Sain_EV.png" width="20px" />Talisman Sain
-                </div>
-
-                <div class="col text-nowrap">
-                    252 Atk, 252 Vit, 4 PV
-                </div>
-
-                <div class="col">
-                    Téra Feu
-                </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="container1">
-        <div class="container d-flex flex-column align-items-center">
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Feu_mini.png" />Lame en Peine
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Spectre_mini.png" />Griffe Ombre
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Spectre_mini.png" />Ombre Portée
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Normal_mini.png" />Danse-Lames
-          </div>
-        </div>
-
-        <p class="background-poke">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-          exercitationem earum ipsa recusandae fugiat voluptatum laudantium,
-          dolore aliquid. Accusamus dolorum fugit odit veniam aspernatur rerum,
-          sequi consectetur vitae quam. Voluptate.
-        </p>
-      </div>
-      <p class="text-center fst-italic">Contributeur : Qelby</p>
-    </div>
-
-<!-- ANGOLIATH -->
-    <div class="encadregeneral">
-      <div class="container1">
-        <div class="flex-column justify-content-center">
-          <img src="Img/861.png" class="image-pokemon" />
-          <img src="/Img/Types/Tenebres.png" width="70px" class="mx-1" /><img
-            src="/Img/Types/Fee.png"
-            width="70px"
-          />
-        </div>
-
-        <div class="d-flex flex-column text-center">
-
-            <h3>ANGOLIATH</h3>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-                <div class="col">
-                    Rigide (+Atk, -Atk spé)
-                </div>
-
-                <div class="col">
-                    Fouille
-                </div>
-
-                <div class="col">
-                <img src="Img/Lumargile.png" width="20px" />Lumargile
-                </div>
-
-                <div class="col text-nowrap">
-                    252 PV, 252 Atk, 4 SpD
-                </div>
-
-                <div class="col">
-                    Téra Ténèbres
-                </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="container1">
-        <div class="container d-flex flex-column align-items-center">
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Fee_mini.png" />Choc Emotionnel
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Tenebres_mini.png" />Croco Larme
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Psy_mini.png" />Mur Lumière
-          </div>
-          <div class="attaques my-1">
-            <img src="Img/Types_mini/Electrik_mini.png" />Cage-Eclair
-          </div>
-        </div>
-
-        <p class="background-poke">
-          A l'origine prévu pour affronter le puissant Dracaufeu en raid, Angoliath n'avait pas la résistance nécessaire pour survivre à ses attaques. Il a donc été laissé de côté et s'est reconverti dans la composition florale.
-        </p>
-      </div>
-      <p class="text-center fst-italic">Contributeur : Yaen</p>
-    </div>
-
-<!-- FLAMIGATOR -->
-    <div class="encadregeneral">
+<!-- FLAMIGATOR #006 -->
+    <div class="encadregeneral bidon Feu Spectre">
       <div class="container1">
         <div class="flex-column justify-content-center">
           <img src="Img/911.png" class="image-pokemon" />
@@ -282,7 +116,7 @@
 
         <div class="d-flex flex-column text-center">
 
-            <h3>FLÂMIGATOR</h3>
+            <h3>FLÂMIGATOR #006</h3>
 
             <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
                 <div class="col text-nowrap">
@@ -334,8 +168,129 @@
       <p class="text-center fst-italic">Contributeur : Yaen</p>
     </div>
 
-<!-- TERRAISTE -->
-    <div class="encadregeneral">
+<!-- PALMAVAL #009 -->
+    <div class="encadregeneral bidon Eau Combat">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/914.png" class="image-pokemon" />
+      <img src="/Img/Types/Eau.png" width="70px" class="mx-1" /><img
+        src="/Img/Types/Combat.png"
+        width="70px"
+      />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>PALMAVAL #009</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+              Jovial (+Vit, -SpAtk)
+            </div>
+
+            <div class="col">
+                Impudence
+            </div>
+
+            <div class="col">
+            <img src="Img/lifeorb.png" width="20px" />Orbe Vie
+            </div>
+
+            <div class="col text-nowrap">
+                252 Atk, 252 Vit, 4 PV
+            </div>
+
+            <div class="col">
+                Téra Eau
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1 text-nowrap">
+        <img src="Img/Types_mini/Eau_mini.png"/>Danse Aquatique
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Combat_mini.png" />Close Combat
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Eau_mini.png" />Aquatacle
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Eau_mini.png" />Aqua-Jet
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Palmaval a découvert la danse artistique en visionnant des vidéos de concours Pokémon à Hoenn et Sinnoh. Il danse constamment pour motiver les gens et Pokémon autour de lui.
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>   
+
+<!-- CORVAILLUS #042 -->
+    <div class="encadregeneral bidon Vol Acier">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/823.png" class="image-pokemon" />
+      <img src="/Img/Types/Vol.png" width="70px" class="mx-1" /><img src="/Img/Types/Acier.png" width="70px" />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>CORVAILLUS #042</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+                Malin (+ Def, -SpAtk)
+            </div>
+
+            <div class="col">
+                Armure Miroir
+            </div>
+
+            <div class="col">
+            <img src="Img/rockyhelmet.png" width="20px" />Casque Brut
+            </div>
+
+            <div class="col text-nowrap">
+                252 PV, 252 Def, 4 SpDef
+            </div>
+
+            <div class="col">
+                Téra Vol
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Vol_mini.png" />Atterrissage
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Vol_mini.png" />Anti-Brume
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Combat_mini.png" />Big Splash
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Insecte_mini.png" />Demi-Tour
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div>
+
+<!-- TERRAISTE #054-->
+    <div class="encadregeneral bidon Sol Poison">
       <div class="container1">
         <div class="flex-column justify-content-center">
           <img src="Img/980.png" class="image-pokemon" />
@@ -347,7 +302,7 @@
 
         <div class="d-flex flex-column text-center">
 
-            <h3>TERRAISTE</h3>
+            <h3>TERRAISTE #054</h3>
 
             <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
                 <div class="col text-nowrap">
@@ -397,10 +352,547 @@
         </p>
       </div>
       <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div> 
+    
+<!-- BRIOCHIEN #077 -->
+    <div class="encadregeneral bidon Fee">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/927.png" class="image-pokemon" />
+      <img src="/Img/Types/Fee.png" width="70px" class="mx-1" />
     </div>
 
-<!-- FLAMENROULE -->
-    <div class="encadregeneral">
+    <div class="d-flex flex-column text-center">
+
+        <h3>No Spice PLZ #077</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+              Rigide (+Atk, -SpAtk)
+            </div>
+
+            <div class="col">
+                Bien Cuit
+            </div>
+
+            <div class="col">
+            <img src="Img/abilityshield.png" width="20px" />Garde-Talent
+            </div>
+
+            <div class="col text-nowrap">
+                252 Atk, 252 Vit, 4 PV
+            </div>
+
+            <div class="col">
+                Téra Fée
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1 text-nowrap">
+        <img src="Img/Types_mini/Fee_mini.png"/>Câlinerie
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Tenebres_mini.png" />Mâchouille
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Fee_mini.png" />Charme
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Normal_mini.png" />Coup d'Main
+      </div>
+    </div>
+
+    <p class="background-poke">
+      No Spice PLZ est né d'une cuisson dans un four laissé sans surveillance. Sa pâte est étonnamment moelleuse, bien que résistant à des températures très élevées.
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
+    
+<!-- GIGANSEL #131-->
+    <div class="encadregeneral bidon Roche">
+      <div class="container1">
+        <div class="flex-column justify-content-center">
+          <img src="Img/934.png" class="image-pokemon" />
+          <img src="/Img/Types/Roche.png" width="70px" class="mx-1" />
+        </div>
+
+        <div class="d-flex flex-column text-center">
+
+            <h3>GIGANSEL #131</h3>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+                <div class="col">
+                    Malin (+Def, -Atk spé)
+                </div>
+
+                <div class="col">
+                    Sel purificateur
+                </div>
+
+                <div class="col">
+                <img src="Img/leftovers.png" width="20px" />Restes
+                </div>
+
+                <div class="col text-nowrap">
+                    252 PV, 252 Def, 4 SpD
+                </div>
+
+                <div class="col">
+                    Téra Spectre
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div class="container d-flex flex-column align-items-center">
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Roche_mini.png" />Salaison
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Acier_mini.png" />Mur de Fer
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Combat_mini.png" />Big Splash
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Normal_mini.png" />Soin
+          </div>
+        </div>
+
+        <p class="background-poke">
+          Gigansel est né de l'érosion suite à des violents chocs avec les vagues des mers de Paldea contre les côtes. Il déteste être mouillé, et se consacre à des entraînements stricts pour durcir son corps.
+        </p>
+      </div>
+      <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
+
+<!-- MALVALAME #167-->
+    <div class="encadregeneral bidon Feu Spectre">
+      <div class="container1">
+        <div class="flex-column justify-content-center">
+          <img src="Img/937.png" class="image-pokemon" />
+          <img src="/Img/Types/Feu.png" width="70px" class="mx-1" /><img
+            src="/Img/Types/Spectre.png"
+            width="70px"
+          />
+        </div>
+
+        <div class="d-flex flex-column text-center">
+
+            <h3>MALVALAME #167</h3>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+                <div class="col">
+                    Jovial (+Vit, -Atk spé)
+                </div>
+
+                <div class="col">
+                    Torche
+                </div>
+
+                <div class="col">
+                <img src="Img/Talisman_Sain_EV.png" width="20px" />Talisman Sain
+                </div>
+
+                <div class="col text-nowrap">
+                    252 Atk, 252 Vit, 4 PV
+                </div>
+
+                <div class="col">
+                    Téra Feu
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div class="container d-flex flex-column align-items-center">
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Feu_mini.png" />Lame en Peine
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Spectre_mini.png" />Griffe Ombre
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Spectre_mini.png" />Ombre Portée
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Normal_mini.png" />Danse-Lames
+          </div>
+        </div>
+
+        <p class="background-poke">
+          Malvalame aime la pyrotechnie, et se consacre à la méditation tous les jours. Il s'est juré de toujours défendre les Pokémon plus faibles que lui, afin de les aider à développer leur plein potentiel.
+        </p>
+      </div>
+      <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div> 
+    
+<!-- AMPIBIDOU #171-->
+    <div class="encadregeneral bidon Electrik">
+    <div class="container1">
+      <div class="flex-column justify-content-center">
+        <img src="Img/939.png" class="image-pokemon" />
+        <img src="/Img/Types/Electrik.png" width="70px" class="mx-1" />
+      </div>
+
+      <div class="d-flex flex-column text-center">
+
+          <h3>AMPIBIDOU #171</h3>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+              <div class="col text-nowrap">
+                  Assuré (+Def, -Atk)
+              </div>
+
+              <div class="col">
+                  Grecharge
+              </div>
+
+              <div class="col">
+              <img src="Img/leftovers.png" width="20px" />Restes
+              </div>
+
+              <div class="col text-nowrap">
+                  252 Def, 252 PV, 4 SpAtk
+              </div>
+
+              <div class="col">
+                  Téra Electrik
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="container d-flex flex-column align-items-center">
+        <div class="attaques my-1">
+          <img src="Img/Types_mini/Normal_mini.png" />Paresse
+        </div>
+        <div class="attaques my-1">
+          <img src="Img/Types_mini/Sol_mini.png" />Coud'Boue
+        </div>
+        <div class="attaques my-1">
+          <img src="Img/Types_mini/Electrik_mini.png" />Parabocharge
+        </div>
+        <div class="attaques my-1">
+          <img src="Img/Types_mini/Eau_mini.png" />Ocroupi
+        </div>
+      </div>
+
+      <p class="background-poke">
+        Surnommé "Le Gars Sûr" par ses pairs, Ampibidou est un allié idéal lorsque vous ne savez pas qui prendre dans votre équipe. Il représente un condensé de tankiness mélangé à beaucoup d'amour.
+      </p>
+    </div>
+    <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div> 
+
+<!-- DOGRINO #197-->
+    <div class="encadregeneral bidon Tenebres">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/943.png" class="image-pokemon" />
+      <img src="/Img/Types/Tenebres.png" width="70px" class="mx-1" />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>DOGRINO #197</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+                Rigide (+Atk, +SpAtk)
+            </div>
+
+            <div class="col">
+                Filature
+            </div>
+
+            <div class="col">
+            <img src="Img/weaknesspolicy.png" width="20px" />Vulné-Assurance
+            </div>
+
+            <div class="col text-nowrap">
+                252 Atk, 252 PV, 4 Def
+            </div>
+
+            <div class="col">
+                Téra Ténèbres
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Tenebres_mini.png" />Mâchouille
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Fee_mini.png" />Câlinerie
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Tenebres_mini.png" />Provoc
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Psy_mini.png" />Psycho-Croc
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div>   
+
+<!-- CRAPAROI #249-->
+    <div class="encadregeneral bidon Roche">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/950.png" class="image-pokemon" />
+      <img src="/Img/Types/Roche.png" width="70px" class="mx-1" />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>CRAPAROI #249</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+                Jovial (+Vit, -SpAtk)
+            </div>
+
+            <div class="col">
+                Courroupace
+            </div>
+
+            <div class="col">
+            <img src="Img/focussash.png" width="20px" />Ceinture Force
+            </div>
+
+            <div class="col text-nowrap">
+                252 Atk, 252 Vit, 4 SpDef
+            </div>
+
+            <div class="col">
+                Téra Roche
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Tenebres_mini.png" />Sabotage
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Sol_mini.png" />Cavalerie Lourde
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Roche_mini.png" />Piège de Roc
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Roche_mini.png" />Lame de Roc
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div> 
+
+<!-- ANGOLIATH #287-->
+    <div class="encadregeneral bidon Tenebres Fee">
+      <div class="container1">
+        <div class="flex-column justify-content-center">
+          <img src="Img/861.png" class="image-pokemon" />
+          <img src="/Img/Types/Tenebres.png" width="70px" class="mx-1" /><img
+            src="/Img/Types/Fee.png"
+            width="70px"
+          />
+        </div>
+
+        <div class="d-flex flex-column text-center">
+
+            <h3>ANGOLIATH #287</h3>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+                <div class="col">
+                    Rigide (+Atk, -Atk spé)
+                </div>
+
+                <div class="col">
+                    Fouille
+                </div>
+
+                <div class="col">
+                <img src="Img/Lumargile.png" width="20px" />Lumargile
+                </div>
+
+                <div class="col text-nowrap">
+                    252 PV, 252 Atk, 4 SpD
+                </div>
+
+                <div class="col">
+                    Téra Ténèbres
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div class="container d-flex flex-column align-items-center">
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Fee_mini.png" />Choc Emotionnel
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Tenebres_mini.png" />Croco Larme
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Psy_mini.png" />Mur Lumière
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Electrik_mini.png" />Cage-Eclair
+          </div>
+        </div>
+
+        <p class="background-poke">
+          A l'origine prévu pour affronter le puissant Dracaufeu en raid, Angoliath n'avait pas la résistance nécessaire pour survivre à ses attaques. Il a donc été laissé de côté et s'est reconverti dans la composition florale.
+        </p>
+      </div>
+      <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div>
+
+<!-- VROMBOTOR #294-->
+    <div class="encadregeneral bidon Acier Poison">
+      <div class="container1">
+        <div class="flex-column justify-content-center">
+          <img src="Img/966.png" class="image-pokemon" />
+          <img src="/Img/Types/Acier.png" width="70px" class="mx-1" /><img src="/Img/Types/Poison.png" width="70px" />
+        </div>
+    
+        <div class="d-flex flex-column text-center">
+    
+            <h3>VROMBOTOR #294</h3>
+    
+            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+                <div class="col text-nowrap">
+                    Jovial (+Vit, -SpAtk)
+                </div>
+    
+                <div class="col">
+                    Filtre
+                </div>
+    
+                <div class="col">
+                <img src="Img/blacksludge.png" width="20px" />Boue Noire
+                </div>
+    
+                <div class="col text-nowrap">
+                    252 Atk, 252 Vit, 4 PV
+                </div>
+    
+                <div class="col">
+                    Téra Poison
+                </div>
+            </div>
+        </div>
+      </div>
+    
+      <div class="container1">
+        <div class="container d-flex flex-column align-items-center">
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Acier_mini.png" />Tête de Fer
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Poison_mini.png" />Direct Toxic
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Acier_mini.png" />Change-Vitesse
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Tenebres_mini.png" />Provoc
+          </div>
+        </div>
+    
+        <p class="background-poke">
+          Brrrrm Brrrrrm ... BRRRRRRRRM VROOOOOOOOOM VRRRRROOOOOOOM clic clac clic clac VVVVVRRROOOOOOOOOOM VVVVVVVM vvvvrrmmm...
+        </p>
+      </div>
+      <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div> 
+
+<!-- MOTORIZARD #295-->
+    <div class="encadregeneral bidon Dragon Normal">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/967.png" class="image-pokemon" />
+      <img src="/Img/Types/Dragon.png" width="70px" class="mx-1" /><img src="/Img/Types/Normal.png" width="70px" />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>MOTORIZARD #295</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+                Jovial (+Vit, -SpAtk)
+            </div>
+
+            <div class="col">
+                Régé-Force
+            </div>
+
+            <div class="col">
+            <img src="Img/heavy-dutyboots.png" width="20px" />Grosses Bottes
+            </div>
+
+            <div class="col text-nowrap">
+                252 PV, 252 Vit, 4 SpDef
+            </div>
+
+            <div class="col">
+                Téra Dragon
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Dragon_mini.png" />Queulonage
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Insecte_mini.png" />Demi-Tour
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Tenebres_mini.png" />Sabotage
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Normal_mini.png" />Tour Rapide
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Yaen</p>
+    </div> 
+
+<!-- FLAMENROULE #346-->
+    <div class="encadregeneral bidon Roche Sol">
       <div class="container1">
         <div class="flex-column justify-content-center">
           <img src="Img/973.png" class="image-pokemon" />
@@ -412,7 +904,7 @@
 
         <div class="d-flex flex-column text-center">
 
-            <h3>FLAMENROULE</h3>
+            <h3>FLAMENROULE #346</h3>
 
             <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
                 <div class="col text-nowrap">
@@ -464,67 +956,8 @@
       <p class="text-center fst-italic">Contributeur : Yaen</p>
     </div>
 
-<!-- AMPIBIDOU -->
-   <div class="encadregeneral">
-    <div class="container1">
-      <div class="flex-column justify-content-center">
-        <img src="Img/939.png" class="image-pokemon" />
-        <img src="/Img/Types/Electrik.png" width="70px" class="mx-1" />
-      </div>
-
-      <div class="d-flex flex-column text-center">
-
-          <h3>AMPIBIDOU</h3>
-
-          <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-              <div class="col text-nowrap">
-                  Assuré (+Def, -Atk)
-              </div>
-
-              <div class="col">
-                  Grecharge
-              </div>
-
-              <div class="col">
-              <img src="Img/leftovers.png" width="20px" />Restes
-              </div>
-
-              <div class="col text-nowrap">
-                  252 Def, 252 PV, 4 SpAtk
-              </div>
-
-              <div class="col">
-                  Téra Electrik
-              </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="container1">
-      <div class="container d-flex flex-column align-items-center">
-        <div class="attaques my-1">
-          <img src="Img/Types_mini/Normal_mini.png" />Paresse
-        </div>
-        <div class="attaques my-1">
-          <img src="Img/Types_mini/Sol_mini.png" />Coud'Boue
-        </div>
-        <div class="attaques my-1">
-          <img src="Img/Types_mini/Electrik_mini.png" />Parabocharge
-        </div>
-        <div class="attaques my-1">
-          <img src="Img/Types_mini/Eau_mini.png" />Ocroupi
-        </div>
-      </div>
-
-      <p class="background-poke">
-        Surnommé "Le Gars Sûr" par ses pairs, Ampibidou est un allié idéal lorsque vous ne savez pas qui prendre dans votre équipe. Il représente un condensé de tankiness mélangé à beaucoup d'amour.
-      </p>
-    </div>
-    <p class="text-center fst-italic">Contributeur : Yaen</p>
-  </div> 
-
-<!-- SCALPEREUR -->
-<div class="encadregeneral">
+<!-- SCALPEREUR #369-->
+    <div class="encadregeneral bidon Tenebres Acier">
   <div class="container1">
     <div class="flex-column justify-content-center">
       <img src="Img/983.png" class="image-pokemon" />
@@ -533,7 +966,7 @@
 
     <div class="d-flex flex-column text-center">
 
-        <h3>SCALPEREUR</h3>
+        <h3>SCALPEREUR #369</h3>
 
         <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
             <div class="col text-nowrap">
@@ -580,128 +1013,10 @@
     </p>
   </div>
   <p class="text-center fst-italic">Contributeur : Yaen</p>
-</div> 
-
-<!-- DOGRINO -->
-<div class="encadregeneral">
-  <div class="container1">
-    <div class="flex-column justify-content-center">
-      <img src="Img/943.png" class="image-pokemon" />
-      <img src="/Img/Types/Tenebres.png" width="70px" class="mx-1" />
-    </div>
-
-    <div class="d-flex flex-column text-center">
-
-        <h3>DOGRINO</h3>
-
-        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-            <div class="col text-nowrap">
-                Rigide (+Atk, +SpAtk)
-            </div>
-
-            <div class="col">
-                Filature
-            </div>
-
-            <div class="col">
-            <img src="Img/weaknesspolicy.png" width="20px" />Vulné-Assurance
-            </div>
-
-            <div class="col text-nowrap">
-                252 Atk, 252 PV, 4 Def
-            </div>
-
-            <div class="col">
-                Téra Ténèbres
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <div class="container1">
-    <div class="container d-flex flex-column align-items-center">
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Tenebres_mini.png" />Mâchouille
-      </div>
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Fee_mini.png" />Câlinerie
-      </div>
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Tenebres_mini.png" />Provoc
-      </div>
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Psy_mini.png" />Psycho-Croc
-      </div>
-    </div>
-
-    <p class="background-poke">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
-    </p>
-  </div>
-  <p class="text-center fst-italic">Contributeur : Yaen</p>
-</div> 
-
-<!-- CORVAILLUS -->
-<div class="encadregeneral">
-  <div class="container1">
-    <div class="flex-column justify-content-center">
-      <img src="Img/823.png" class="image-pokemon" />
-      <img src="/Img/Types/Vol.png" width="70px" class="mx-1" /><img src="/Img/Types/Acier.png" width="70px" />
-    </div>
-
-    <div class="d-flex flex-column text-center">
-
-        <h3>CORVAILLUS</h3>
-
-        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-            <div class="col text-nowrap">
-                Malin (+ Def, -SpAtk)
-            </div>
-
-            <div class="col">
-                Armure Miroir
-            </div>
-
-            <div class="col">
-            <img src="Img/rockyhelmet.png" width="20px" />Casque Brut
-            </div>
-
-            <div class="col text-nowrap">
-                252 PV, 252 Def, 4 SpDef
-            </div>
-
-            <div class="col">
-                Téra Vol
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <div class="container1">
-    <div class="container d-flex flex-column align-items-center">
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Vol_mini.png" />Atterrissage
-      </div>
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Vol_mini.png" />Anti-Brume
-      </div>
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Combat_mini.png" />Big Splash
-      </div>
-      <div class="attaques my-1">
-        <img src="Img/Types_mini/Insecte_mini.png" />Demi-Tour
-      </div>
-    </div>
-
-    <p class="background-poke">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
-    </p>
-  </div>
-  <p class="text-center fst-italic">Contributeur : Yaen</p>
-</div> 
-
-<!-- NIGIRIGON -->
-<div class="encadregeneral">
+    </div>  
+    
+<!-- NIGIRIGON #375-->
+    <div class="encadregeneral bidon Eau Dragon">
   <div class="container1">
     <div class="flex-column justify-content-center">
       <img src="Img/978-s.png" class="image-pokemon" />
@@ -710,7 +1025,7 @@
 
     <div class="d-flex flex-column text-center">
 
-        <h3>NIGIRIGON</h3>
+        <h3>NIGIRIGON #375</h3>
 
         <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
             <div class="col text-nowrap">
@@ -757,39 +1072,42 @@
     </p>
   </div>
   <p class="text-center fst-italic">Contributeur : Yaen</p>
-</div> 
+    </div> 
 
-<!-- MOTORIZARD -->
-<div class="encadregeneral">
+<!-- FORT-IVOIRE #376-->
+    <div class="encadregeneral bidon Sol Combat">
   <div class="container1">
     <div class="flex-column justify-content-center">
-      <img src="Img/967.png" class="image-pokemon" />
-      <img src="/Img/Types/Dragon.png" width="70px" class="mx-1" /><img src="/Img/Types/Normal.png" width="70px" />
+      <img src="Img/984.png" class="image-pokemon" />
+      <img src="/Img/Types/Sol.png" width="70px" class="mx-1" /><img
+        src="/Img/Types/Combat.png"
+        width="70px"
+      />
     </div>
 
     <div class="d-flex flex-column text-center">
 
-        <h3>MOTORIZARD</h3>
+        <h3>PaleoDonphan #376</h3>
 
         <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
-            <div class="col text-nowrap">
-                Jovial (+Vit, -SpAtk)
+            <div class="col">
+                Rigide (+Atk, -SpAtk)
             </div>
 
             <div class="col">
-                Régé-Force
+                Paléosynthèse
             </div>
 
             <div class="col">
-            <img src="Img/heavy-dutyboots.png" width="20px" />Grosses Bottes
-            </div>
-
-            <div class="col text-nowrap">
-                252 PV, 252 Vit, 4 SpDef
+            <img src="Img/boosterenergy.png" width="20px" />Energie Booster
             </div>
 
             <div class="col">
-                Téra Dragon
+                4 PV, 252 Atk, 252 Vit
+            </div>
+
+            <div class="col">
+                Téra Sol
             </div>
         </div>
     </div>
@@ -798,57 +1116,60 @@
   <div class="container1">
     <div class="container d-flex flex-column align-items-center">
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Dragon_mini.png" />Queulonage
+        <img src="Img/Types_mini/Sol_mini.png" />Assaut Frontal
       </div>
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Insecte_mini.png" />Demi-Tour
+        <img src="Img/Types_mini/Combat_mini.png" />Close Combat
       </div>
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Tenebres_mini.png" />Sabotage
+        <img src="Img/Types_mini/Roche_mini.png" />Eboulement
       </div>
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Normal_mini.png" />Tour Rapide
+        <img src="Img/Types_mini/Sol_mini.png" />Séisme
       </div>
     </div>
 
     <p class="background-poke">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
+      Paleo-Donphan a dormi plusieurs millénaires, et s'est un jour réveillé avec une furieuse envie de tout détruire. Il est malgré tout calme et obéissant s'il est encadré par un bon dresseur.
     </p>
   </div>
-  <p class="text-center fst-italic">Contributeur : Yaen</p>
-</div> 
+  <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
 
-<!-- CRAPAROI -->
-<div class="encadregeneral">
+<!-- HOTTE-DE-FER #383-->
+<div class="encadregeneral bidon Glace Eau">
   <div class="container1">
     <div class="flex-column justify-content-center">
-      <img src="Img/950.png" class="image-pokemon" />
-      <img src="/Img/Types/Roche.png" width="70px" class="mx-1" />
+      <img src="Img/991.png" class="image-pokemon" />
+      <img src="/Img/Types/Glace.png" width="70px" class="mx-1" /><img
+        src="/Img/Types/Eau.png"
+        width="70px"
+      />
     </div>
 
     <div class="d-flex flex-column text-center">
 
-        <h3>CRAPAROI</h3>
+        <h3>ParadoxSanta #383</h3>
 
         <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
             <div class="col text-nowrap">
-                Jovial (+Vit, -SpAtk)
+                Modeste (+SpAtk, -Atk)
             </div>
 
             <div class="col">
-                Courroupace
+                Charge Quantique
             </div>
 
             <div class="col">
-            <img src="Img/focussash.png" width="20px" />Ceinture Force
+            <img src="Img/wiseglasses.png" width="20px" />Lunettes Sages
             </div>
 
             <div class="col text-nowrap">
-                252 Atk, 252 Vit, 4 SpDef
+                4 PV, 252 SpAtk, 252 Vit
             </div>
 
             <div class="col">
-                Téra Roche
+                Téra Eau
             </div>
         </div>
     </div>
@@ -857,25 +1178,273 @@
   <div class="container1">
     <div class="container d-flex flex-column align-items-center">
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Tenebres_mini.png" />Sabotage
+        <img src="Img/Types_mini/Glace_mini.png" />Laser Glace
       </div>
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Sol_mini.png" />Cavalerie Lourde
+        <img src="Img/Types_mini/Glace_mini.png" />Lyophilisation
       </div>
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Roche_mini.png" />Piège de Roc
+        <img src="Img/Types_mini/Eau_mini.png" />Hydrocanon
       </div>
       <div class="attaques my-1">
-        <img src="Img/Types_mini/Roche_mini.png" />Lame de Roc
+        <img src="Img/Types_mini/Eau_mini.png" />Douche Froide
       </div>
     </div>
 
     <p class="background-poke">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius earum non modi itaque hic, quaerat numquam minima officia sunt, quo quod explicabo cupiditate culpa quidem voluptate quasi aliquid velit molestias!
+      Paradox Santa vient d'un futur ou plus aucun enfant n'est sage. Ne pouvant plus distribuer de cadeaux, il a fini par adopter un comportement violent pour punir les enfants qui ne seraient pas assez sages.
     </p>
   </div>
-  <p class="text-center fst-italic">Contributeur : Yaen</p>
-</div> 
+  <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
+
+<!-- PAUME-DE-FER #384-->
+<div class="encadregeneral bidon Combat Electrik">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/992.png" class="image-pokemon" />
+      <img src="/Img/Types/Combat.png" width="70px" class="mx-1" /><img
+        src="/Img/Types/Electrik.png"
+        width="70px"
+      />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>Volt Honda #384</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+                Jovial (+Vit, -SpAtk)
+            </div>
+
+            <div class="col">
+                Charge Quantique
+            </div>
+
+            <div class="col">
+            <img src="Img/shellbell.png" width="20px" />Grelot Coque
+            </div>
+
+            <div class="col text-nowrap">
+                4 PV, 250 Atk, 252 Vit
+            </div>
+
+            <div class="col">
+                Téra Electrik
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Combat_mini.png" />Vampi-Poing
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Electrik_mini.png" />Poing-Eclair
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Electrik_mini.png" />Eclair Fou
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Normal_mini.png" />Cognobidon
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Volt Honda a appris le self défense en observant les mouvements d'un sumo légendaire, et y a ajouté sa touche personnelle via un taser intégré à son corps lors d'une modification génétique. Il est ensuite revenu dans le passé pour enseigner son art du combat.
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
+
+<!-- GROMAGO #392-->
+    <div class="encadregeneral bidon Acier Spectre">
+      <div class="container1">
+        <div class="flex-column justify-content-center">
+          <img src="Img/1000.png" class="image-pokemon" />
+          <img src="/Img/Types/Acier.png" width="70px" class="mx-1" /><img
+            src="/Img/Types/Spectre.png"
+            width="70px"
+          />
+        </div>
+
+        <div class="d-flex flex-column text-center">
+
+            <h3>Nice Chest #392</h3>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+                <div class="col">
+                    Timide (+Vit, -Atk)
+                </div>
+
+                <div class="col">
+                    Corps en or
+                </div>
+
+                <div class="col">
+                <img src="Img/Dream_Air_Balloon_Sprite.png" width="20px" />Ballon
+                </div>
+
+                <div class="col">
+                    4 PV, 252 SpA, 252 Vit
+                </div>
+
+                <div class="col">
+                    Téra Spectre
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div class="container d-flex flex-column align-items-center">
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Acier_mini.png" />Ruée d'Or
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Spectre_mini.png" />Ball'Ombre
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Electrik_mini.png" />Tonnerre
+          </div>
+          <div class="attaques my-1">
+            <img src="Img/Types_mini/Tenebres_mini.png" />Machination
+          </div>
+        </div>
+
+        <p class="background-poke">
+          Nice Chest s'est accidentellement enfermé dans un coffre aux trésors lors d'une exploration, et a dû ingérer les pièces d'or contenues pour survivre. Son corps s'est changé en or depuis cet événement.
+        </p>
+      </div>
+      <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
+
+<!-- KORAIDON #399-->
+    <div class="encadregeneral bidon Dragon Combat">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/1007.png" class="image-pokemon" />
+      <img src="/Img/Types/Combat.png" width="70px" class="mx-1" /><img
+        src="/Img/Types/Dragon.png"
+        width="70px"
+      />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>KORAIDON #399</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col">
+                Rigide (+Atk, -SpAtk)
+            </div>
+
+            <div class="col">
+                Pouls Orichalque
+            </div>
+
+            <div class="col">
+            <img src="Img/luckyegg.png" width="20px" />Oeuf Chance
+            </div>
+
+            <div class="col">
+                252 PV, 252 Atk, 6 Def
+            </div>
+
+            <div class="col">
+                Téra Combat
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Combat_mini.png" />Nitro Crash
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Dragon_mini.png" />Draco-Griffe
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Combat_mini.png" />Vampi-Poing
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Normal_mini.png" />Grincement
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Koraidon vient d'un passé lointain, où sa terre natale fut presque détruite par un parasite alien. Il a été transporté par mégarde dans un mystérieux rayon de lumière bleue, et cherche depuis un moyen de rentrer chez lui pour sauver son peuple.
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Qelby et Yaen</p>
+    </div>
+
+<!-- MIRAIDON #400-->
+<div class="encadregeneral bidon Dragon Electrik">
+  <div class="container1">
+    <div class="flex-column justify-content-center">
+      <img src="Img/1008.png" class="image-pokemon" />
+      <img src="/Img/Types/Electrik.png" width="70px" class="mx-1" /><img
+        src="/Img/Types/Dragon.png"
+        width="70px"
+      />
+    </div>
+
+    <div class="d-flex flex-column text-center">
+
+        <h3>MIRAIDON #400</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center justify-content-evenly">
+            <div class="col text-nowrap">
+                Modeste (+SpAtk, -Atk)
+            </div>
+
+            <div class="col">
+                Moteur à Hadrons
+            </div>
+
+            <div class="col">
+            <img src="Img/amuletcoin.png" width="20px" />Pièce Rune
+            </div>
+
+            <div class="col text-nowrap">
+                252 Vit, 252 SpAtk, 6 PV
+            </div>
+
+            <div class="col">
+                Téra Electrik
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="container d-flex flex-column align-items-center">
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Electrik_mini.png" />Turbo Volt
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Dragon_mini.png" />Draco-Choc
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Electrik_mini.png" />Parabocharge
+      </div>
+      <div class="attaques my-1">
+        <img src="Img/Types_mini/Acier_mini.png" />Strido-Son
+      </div>
+    </div>
+
+    <p class="background-poke">
+      Miraidon est revenu dans le passé parce-qu'il avait accumulé trop de dettes de jeux. Il garde toujours sur lui sa pièce fétiche.
+    </p>
+  </div>
+  <p class="text-center fst-italic">Contributeur : Qelby</p>
+    </div>
 
 
 
@@ -883,11 +1452,25 @@
 
 
 
+
+
+
+
+
+</div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-  </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      function show(champ) {
+          $('.bidon').hide()
+          $('div.' + champ).show()
+      }
+  </script>
+</body>
 </html>

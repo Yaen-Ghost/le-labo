@@ -1,1 +1,1 @@
-# yaen-ghost.github.io
+# le-labo.github.io
